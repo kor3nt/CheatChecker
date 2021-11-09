@@ -1,0 +1,8 @@
+main: me.kor3nt.cheatchecker.CheatChecker
+name: CheatChecker
+authors: [ kor3nt ]
+version: 1.0.0
+commands:
+    checker:
+      usage: /checker <check:clear:admit:detection:set>
+      permission: checker.*

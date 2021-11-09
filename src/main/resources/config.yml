@@ -1,0 +1,24 @@
+messages:
+  set-checking-room: '&aLokalizacje ustawiono pomyślnie!'
+  if-console: '&cMusisz być graczem, by tego używać!'
+  error-location: '&cW configu jest zła lokalizacja pokoju do sprawdzania!'
+  error-checking-player: '&cPoprawne użycie komendy to: /checker check <nickPlayer>'
+  already-player-checking: '&cJakiś gracz już jest sprawdzany!'
+  chat-send-to-cheater: '&cDołącz na discorda! &a LINK'
+  cheater-title-up: '&cJesteś sprawdzany!'
+  cheater-title-down: '&aQuit = BAN'
+  send-to-admin: '&aZnaleziono gracza! Sprawdź go!'
+  player-is-not-online: '&cTego gracza nie ma na serwerze!'
+  must-check: '&cMusisz sprawdzać gracza! Użyj komendy: /checker check <nick>'
+  player-is-not-guilty: '&aZostałeś uniewinniony!'
+  admin-player-is-not-guilty: '&aUniewinniłeś tego gracza!'
+  player-admit: '&aPrzyznales sie do winy!'
+  admin-player-admit: '&aZbanowałes gracza. Powód: przyznał się do winy!'
+  player-detection: '&aWykryto u ciebie cheaty!'
+  admin-player-detection: '&aZbanowałes gracza. Powód: wykryto cheaty!'
+  player-quit: '&aWyszedles podczas sprawdzania!'
+  admin-player-quit: '&aGracz wyszedl podczas sprawdzania!'
+ban-time-hours:
+  admit: 15
+  detection: 10
+  quit: 0
