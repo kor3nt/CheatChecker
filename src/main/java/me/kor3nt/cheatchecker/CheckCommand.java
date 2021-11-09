@@ -109,7 +109,7 @@ public class CheckCommand  implements CommandExecutor, Listener {
             Date oldDate = new Date();
             Date newDate = new Date(oldDate.getTime() + time);
             hacker.getPlayer().getServer().getBanList(BanList.Type.NAME).addBan(hacker.getName(), config.getString("messages.player-detection"), newDate, admin.getName());
-            admin.kickPlayer(hacker.getName());
+            hacker.kickPlayer(admin.getName());
             admin.sendMessage(format(config.getString("messages.admin-player-admit")));
             hacker = null;
             playerLocation = null;
@@ -127,7 +127,7 @@ public class CheckCommand  implements CommandExecutor, Listener {
             Date oldDate = new Date();
             Date newDate = new Date(oldDate.getTime() + time);
             hacker.getPlayer().getServer().getBanList(BanList.Type.NAME).addBan(hacker.getName(), config.getString("messages.player-detection"), newDate, admin.getName());
-            admin.kickPlayer(hacker.getName());
+            hacker.kickPlayer(admin.getName());
             admin.sendMessage(format(config.getString("messages.admin-player-detection")));
             hacker = null;
             playerLocation = null;
