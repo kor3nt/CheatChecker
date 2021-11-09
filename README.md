@@ -7,4 +7,4 @@ Commands:
 /checker admit - the player pleaded guilty
 /checker detection - you have detected a player has cheats
   
-All plugin messages are configurable. The plugin has a blockade against the player's exit while checking. Penalties are given in hours and can be changed in config.yml.
+All messages are configurable. The plugin has a blockade against the player's exit while checking. Penalties are given in hours and can be changed in config.yml.
