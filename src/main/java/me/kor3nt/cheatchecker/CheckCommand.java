@@ -108,8 +108,8 @@ public class CheckCommand  implements CommandExecutor, Listener {
             long time = config.getLong("ban-time-hours.admit") * HOUR;
             Date oldDate = new Date();
             Date newDate = new Date(oldDate.getTime() + time);
-            hacker.getPlayer().getServer().getBanList(BanList.Type.NAME).addBan(hacker.getName(), config.getString("messages.player-detection"), newDate, admin.getName());
-            hacker.kickPlayer(admin.getName());
+            hacker.getPlayer().getServer().getBanList(BanList.Type.NAME).addBan(hacker.getName(), config.getString("messages.player-admit"), newDate, admin.getName());
+            hacker.kickPlayer(config.getString("messages.player-admit"));
             admin.sendMessage(format(config.getString("messages.admin-player-admit")));
             hacker = null;
             playerLocation = null;
@@ -127,7 +127,7 @@ public class CheckCommand  implements CommandExecutor, Listener {
             Date oldDate = new Date();
             Date newDate = new Date(oldDate.getTime() + time);
             hacker.getPlayer().getServer().getBanList(BanList.Type.NAME).addBan(hacker.getName(), config.getString("messages.player-detection"), newDate, admin.getName());
-            hacker.kickPlayer(admin.getName());
+            hacker.kickPlayer(config.getString("messages.player-detection"));
             admin.sendMessage(format(config.getString("messages.admin-player-detection")));
             hacker = null;
             playerLocation = null;
