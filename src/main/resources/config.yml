@@ -10,7 +10,7 @@ messages:
   send-to-admin: '&aPlayer found! Check it out!'
   player-is-not-online: '&cThis player is not Online!'
   must-check: '&cYou have to check the player! Use the command: /checker check <nick>'
-  player-is-not-guilty: '&aYou've been acquitted!'
+  player-is-not-guilty: '&aYou have been acquitted!'
   admin-player-is-not-guilty: '&aYou acquitted this player!'
   player-admit: '&aYou pleaded guilty!'
   admin-player-admit: '&aYou banned a player. Reason: pleaded guilty!'
